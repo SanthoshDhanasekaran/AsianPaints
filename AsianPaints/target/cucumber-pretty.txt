@@ -1,0 +1,25 @@
+
+@tag @tag1
+Scenario: Click Successful.            # FeatureProgress/Explorenow.feature:24
+  Given I am on Asian Paints Homepages # presentTest.Explorenow.i_am_on_asianpaints_homepages()
+  When I click on Explore Now          # presentTest.Explorenow.i_click_on_explore_now()
+  Then Beautiful Homes page opens      # presentTest.Explorenow.beautiful_homes_page_opens()
+
+@tag @tag1
+Scenario: footer          # FeatureProgress/Footer.feature:24
+  Given I am on ap hp     # presentTest.Footer.i_am_on_ap_hp()
+  When user finds about   # presentTest.Footer.user_finds_about()
+  And user finds content  # presentTest.Footer.user_finds_content()
+  And user finds policies # presentTest.Footer.user_finds_policies()
+  And user finds tools    # presentTest.Footer.user_finds_tools()
+  And user finds country  # presentTest.Footer.user_finds_country()
+  Then footer working     # presentTest.Footer.footer_working()
+
+@tag @tag1
+Scenario: image validate          # FeatureProgress/ImageValidate.feature:24
+  Given I am on aps hp            # presentTest.ImageValidate.i_am_on_ap_hp()
+  When beautiful homes image      # presentTest.ImageValidate.beautiful_homes_image()
+  And exquisite finish image      # presentTest.ImageValidate.exquisite_finish_image()
+  And design and colour app image # presentTest.ImageValidate.design_and_colour_app_image()
+  And explore now image           # presentTest.ImageValidate.explore_now_image()
+  Then images working             # presentTest.ImageValidate.images_working()

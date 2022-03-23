@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="21.835">
+<testcase classname="Asian Paints" name="Click Successful." time="9.163">
+<system-out><![CDATA[Given I am on Asian Paints Homepages........................................passed
+When I click on Explore Now.................................................passed
+Then Beautiful Homes page opens.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Asian Paints" name="footer" time="6.326">
+<system-out><![CDATA[Given I am on ap hp.........................................................passed
+When user finds about.......................................................passed
+And user finds content......................................................passed
+And user finds policies.....................................................passed
+And user finds tools........................................................passed
+And user finds country......................................................passed
+Then footer working.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Asian Paints" name="image validate" time="6.18">
+<system-out><![CDATA[Given I am on aps hp........................................................passed
+When beautiful homes image..................................................passed
+And exquisite finish image..................................................passed
+And design and colour app image.............................................passed
+And explore now image.......................................................passed
+Then images working.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

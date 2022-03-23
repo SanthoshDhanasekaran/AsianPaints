@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22357" started-at="2022-03-23T12:30:40 IST" finished-at="2022-03-23T12:31:03 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="Runner.Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@3439f68d]" name="Scenario" class="runner.Runner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="22357" started-at="2022-03-23T12:30:40 IST" finished-at="2022-03-23T12:31:03 IST">
+      <class name="runner.Runner">
+        <test-method status="PASS" signature="setUpCucumber()[pri:0, instance:runner.Runner@3439f68d]" name="setUpCucumber" is-config="true" duration-ms="456" started-at="2022-03-23T12:30:40 IST" finished-at="2022-03-23T12:30:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method status="PASS" signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@3439f68d]" name="Scenario" duration-ms="9224" started-at="2022-03-23T12:30:41 IST" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-03-23T12:30:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click Successful."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Asian Paints]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method status="PASS" signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@3439f68d]" name="Scenario" duration-ms="6335" started-at="2022-03-23T12:30:50 IST" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-03-23T12:30:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["footer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Asian Paints]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method status="PASS" signature="Scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@3439f68d]" name="Scenario" duration-ms="6190" started-at="2022-03-23T12:30:56 IST" description="Runs Cucumber Feature" data-provider="Scenarios" finished-at="2022-03-23T12:31:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["image validate"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Asian Paints]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Runner@3439f68d]" name="tearDownClass" is-config="true" duration-ms="117" started-at="2022-03-23T12:31:03 IST" finished-at="2022-03-23T12:31:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
